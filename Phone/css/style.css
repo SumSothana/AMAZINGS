@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+title {
+    background-color: #f46e39;
+    color: #f46e39;
+}
+
+.logo {
+    float: left;
+    margin-top: 1%;
+    margin-left: 6%;
+    border-bottom: solid 3px #f46e39;
+    font-family: 'Anton', sans-serif;
+}
+
+span {
+    color: #f46e39;
+}
+
+
+/*---------  head banner and menu  -------------------**/
+
+.head {
+    width: 100%;
+    background-color: #E1E1E1;
+    height: 70px;
+}
+
+.head .menu .current a {
+    color: #f46e39;
+}
+
+.head .menu h1 {
+    background-color: black;
+}
+
+.menu {
+    float: right;
+    display: inline-flex;
+    margin-right: 6%;
+}
+
+.menu .mode {
+    margin: 25px 0 0 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu .mode a {
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'Anton', sans-serif;
+    font-size: 17px;
+    color: #707070;
+    text-transform: uppercase;
+}
+
+.menu .mode a:hover {
+    color: #f46e39;
+    padding: 29px;
+}
+
+
+/*----  End  head banner and menu ----------------------------------------------------------------------*/
+
+
+/*------- body have prara and pic--------------------------------------*/
+
+.body {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-position: 50% 50%;
+    background: url(../resource/sumsung.gif);
+    background-size: 100% 450px;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.overlay h1 {
+    margin-top: 50px;
+    font-size: 60px;
+    margin-left: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.overlay a {
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.btn {
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #f46e39;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: #E1E1E1;
+    color: #f46e39;
+}
+
+
+/*-------------------------------------------------*/
+
+.body2 {
+    float: left;
+    width: 55%;
+    height: 300px;
+    background-color: #E1E1E1;
+}
+
+.body2-p {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.body2-2 {
+    float: right;
+    width: 45%;
+    height: 300px;
+    background: url(../resource/b-oppo.jpg);
+    background-size: 100% 300px;
+}
+
+
+/***    BRAND    ****/
+
+.brand {
+    float: left;
+    width: 100%;
+    background-color: #f82121;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.brand .brands {
+    display: inline-flex;
+    height: 200px;
+}
+
+.brand .brands .model {
+    width: 20%;
+    list-style-type: none;
+}
+
+.brand .brands .model img {
+    width: 100%;
+    height: 200px;
+}
+
+
+/*----  End Brand  --------------------------------*/
+
+
+/*--------------------------------------*/
+
+.foot {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: #E1E1E1;
+    margin-top: 10px;
+}
+
+.foot .menuf {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.menuf .menua a {
+    text-decoration: none;
+    color: #707070;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+.menua a:hover {
+    color: #f46e39;
+}
+
+#mainFoot {
+    text-align: center;
+    background: black;
+}
+
+#mainFoot p {
+    margin-top: 40px;
+    color: black;
+    font-size: 18px;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+h3 {
+    color: goldenrod;
+}

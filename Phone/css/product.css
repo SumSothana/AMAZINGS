@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .product-cotagory{
+  position: fixed;
+  width: 20%;
+}
+.cotagory{
+  width: 100%;
+  float: left;
+  
+}
+.cotagory li{
+  list-style: none;
+  background-color: #ffffff;
+  height: auto;
+  width: 100%;
+}
+.cotagory li a{
+  text-align: left;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  color: #f46e34;
+  padding: 20px 20px;
+}
+.cotagory li a:hover{
+  color: #ffffff;
+  background-color: #f46e34;
+} */
+
+.menu_item {
+    padding: 0;
+}
+
+.col-wrapper {
+    background-color: #ffffff;
+    height: 40px;
+}
+
+.col-wrapper:hover {
+    background-color: #f46e34;
+}
+
+.heading h4 {
+    text-align: center;
+    color: #f46e34;
+}
+
+.col-wrapper a:hover {
+    color: #ffffff;
+}
+
+.col-wrapper a {
+    color: #f46e34;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 120px;
+}
+
+
+/* card */
+
+.wrapper {
+    margin: 20px 150px;
+    float: left;
+    height: 420px;
+    width: 654px;
+    border-radius: 7px 7px 7px 7px;
+    /* VIA CSS MATIC https://goo.gl/cIbnS */
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.wrapper:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.4s;
+}
+
+.product-img {
+    float: left;
+    height: 420px;
+    width: 327px;
+}
+
+.product-img img {
+    border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+}
+
+.product-text {
+    height: 300px;
+    width: 327px;
+}
+
+.product-text h1 {
+    margin: 10px 10px;
+    padding: 20px 20px;
+    font-size: 34px;
+    color: #474747;
+    text-align: center;
+}
+
+.product-text h1,
+.product-price-btn p {
+    font-family: 'Bentham', serif;
+}
+
+.product-text h2 {
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+}
+
+.product-text p {
+    margin-left: 15px;
+    font-family: 'Playfair Display', serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+
+.product-price-btn {
+    height: 103px;
+    width: 327px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.product-price-btn p {
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    font-family: 'Trocchi', serif;
+    margin: 0 0 0 10px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #474747;
+}
+
+
+/*
+span {
+    display: inline-block;
+    height: 50px;
+    font-family: 'Suranna', serif;
+    font-size: 34px;
+}
+
+.product-text h1:hover {
+    color: #f46e34;
+}
+*/
+
+.product-price-btn button {
+    float: right;
+    display: inline-block;
+    height: 50px;
+    width: 176px;
+    margin-right: 10px;
+    border: 2px solid #f46e34;
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #f46e34;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+}
+
+.product-price-btn button:hover {
+    background-color: #f46e34;
+    color: #ffffff;
+    transform: scale(0.9, 0.9);
+}
